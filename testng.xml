@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="BANKING">  
+  <test name="GURU99.KICKOFF">  
+  <parameter name="browser" value="firefox" />
+    <classes>  
+      <class name="GURU99.KICKOFF.Login"/>  
+     
+    </classes>  
+  </test> <!-- Test -->  
+</suite> <!-- Suite -->  

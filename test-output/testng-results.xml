@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="BANKING" duration-ms="29457" started-at="2020-08-04T14:29:12Z" finished-at="2020-08-04T14:29:41Z">
+    <groups>
+    </groups>
+    <test name="GURU99.KICKOFF" duration-ms="29457" started-at="2020-08-04T14:29:12Z" finished-at="2020-08-04T14:29:41Z">
+      <class name="GURU99.KICKOFF.Login">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:GURU99.KICKOFF.Login@1e88b3c]" name="setUp" is-config="true" duration-ms="22547" started-at="2020-08-04T14:29:12Z" finished-at="2020-08-04T14:29:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="loginTest()[pri:0, instance:GURU99.KICKOFF.Login@1e88b3c]" name="loginTest" duration-ms="1319" started-at="2020-08-04T14:29:34Z" finished-at="2020-08-04T14:29:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:GURU99.KICKOFF.Login@1e88b3c]" name="tearDown" is-config="true" duration-ms="5558" started-at="2020-08-04T14:29:36Z" finished-at="2020-08-04T14:29:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- GURU99.KICKOFF.Login -->
+    </test> <!-- GURU99.KICKOFF -->
+  </suite> <!-- BANKING -->
+</testng-results>
